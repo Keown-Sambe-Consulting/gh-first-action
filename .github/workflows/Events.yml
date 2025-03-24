@@ -3,10 +3,10 @@ on:
   pull_request:
     types:
       - opened
-      - closed # Keown Added
+      - reopened # Keown Added
     branches:
-      - main
-      - 24Mar # main
+      - main # main
+      - 24Mar 
       #you can list other branches here
   workflow_dispatch: # to manually dispatch
   push:
